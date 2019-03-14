@@ -131,18 +131,48 @@ input, select {
   height: 50%;
 }
 
+.info {
+  height: 90%;
+  position: relative;
+  margin-left: 75px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Infobox h3 {
+  font-size: 20px;
+}
+
 .Infobox h2 {
   text-decoration: underline;
   text-decoration-color: #34a5da;
   font-size: 30px;
+  height: 50px;
 }
 
-.Infobox h3 {
-  font-size: 18px;
+.info-specs-1 {
+  position: relative;
+  height: 100px;
 }
 
-.Infobox h3 {
-  font-size: 18px;
+.info-specs-1 h3 {
+  padding-bottom: 8px;
+}
+
+.info-specs-2 {
+  position: relative;
+  height: 140px;
+}
+
+.info-specs-2 h3 {
+  padding-bottom: 8px;
+}
+
+.info-specs-2 li {
+  padding-bottom: 8px;
+  padding-left: 40px;
 }
 
 .Navigator {
@@ -157,10 +187,10 @@ input, select {
 
 .Counter {
   color: black;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   position: absolute;
-  right: 11.5%;
+  right: 11%;
   top: 21%;
 }
 
